@@ -3,7 +3,7 @@ import { FaThumbsDown } from 'react-icons/fa';
 
 function ChuckNorrisJokes() {
   const [joke, setJoke] = useState("");
-
+//   Get a random joke at the first load
   useEffect(() => {
     fetch("https://api.chucknorris.io/jokes/random?category=dev")
       .then(res => res.json())
@@ -35,7 +35,7 @@ function ChuckNorrisJokes() {
         </button>
     </div>
   );
-
+//   Function to get a random joke on every button click
   function fetchJoke() {
     fetch("https://api.chucknorris.io/jokes/random?category=dev")
      .then(res => res.json())

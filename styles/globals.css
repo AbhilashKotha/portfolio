@@ -99,7 +99,7 @@ textarea[type="text"]:not(:placeholder-shown) ~ .input-text {
     transform: scale(1);
   }
 }
-
+/* For the Banner animation on landing page */
 .cust-card-background-container {
   width: 100%;
   height: 100%;

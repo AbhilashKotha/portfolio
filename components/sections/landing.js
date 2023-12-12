@@ -27,8 +27,6 @@ const OFFSET = STROKE_WIDTH / 2
 
 const MAX_WIDTH = 150 + OFFSET * 2
 const MAX_HEIGHT = 100 + OFFSET * 2
-import dots from "../../public/SVG/dots.svg";
-import dotsgradient from "../../public/SVG/dots_gradient.svg";
 import ChuckNorrisJokes from "../cards/jokecard";
 
 export default function Landing(props) {
