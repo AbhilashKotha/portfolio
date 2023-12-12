@@ -20,3 +20,9 @@ Milestones
 * Stage 3: Implement rest of the pages like experiences and projects
 * Stage 4: Polish it and test it
 * Stage 5: Deploy the application on vercel and add custom domain
+
+## Screenshots of the Figma Jam
+Link: [https://www.figma.com/file/tOS9XSwszMlBPkM5JTgTmc/roughPlan?type=whiteboard&node-id=0%3A1&t=MdPWk56P9LLqNfdf-1](https://www.figma.com/file/tOS9XSwszMlBPkM5JTgTmc/roughPlan?type=whiteboard&node-id=0%3A1&t=MdPWk56P9LLqNfdf-1)
+
+<img width="858" alt="image" src="https://github.com/AbhilashKotha/portfolio/assets/113061137/ed56e02d-dc44-433c-a717-18d1b636a7cd">
+
