@@ -1,6 +1,6 @@
 # Portfolio Website
 
-**Purpose:** I want to build a website that has all the information a recruiter wants to see about me (even more than they want to see). At the same time, I want the website to be responsive, modern-looking, and light weight.
+**Purpose:** I want to build a website that has all the information a recruiter wants to see about me (even more than they want to see). At the same time, I want the website to be responsive, modern-looking, and lightweight.
 
 ## Here are some important links: 
 

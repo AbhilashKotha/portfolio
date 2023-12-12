@@ -11,6 +11,9 @@ export default function About() {
     <section
       id="about"
       className="mb-24 mt-36 transition-colors duration-300 max-w-screen-2xl mx-auto"
+      vocab="https://schema.org/"
+      typeof="Person"
+      resource="#about"
     >
       <div className="flex text-center mx-auto">
         <h1
@@ -39,8 +42,8 @@ export default function About() {
           data-aos-once
           className="mt-8 text-pf-dark dark:text-pf-light font-gilroy"
         >
-          <p className="mx-auto max-w-lg py-2">
-            Hello! 👋 My name is Abhilash and I'm an international Student persuing a master's degree in {" "}
+          <p className="mx-auto max-w-lg py-2" property="description">
+            Hello! 👋 My name is <span property="name">Abhilash</span> and I'm an international Student persuing a master's degree in {" "}
             <a
               href="https://www.slu.edu/science-and-engineering/academics/graduate-programs/software-engineering-ms.php"
               target="_blank"
@@ -68,6 +71,8 @@ export default function About() {
               target="_blank"
               rel="noreferrer noopener"
               className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
+              property="worksFor"
+              typeof="Organization"
             >
               Merck KgaA
             </a>{" and "}<a
@@ -75,6 +80,8 @@ export default function About() {
               target="_blank"
               rel="noreferrer noopener"
               className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
+              property="worksFor"
+              typeof="Organization"
             >
              Mindtree Ltd
             </a>{" "}
@@ -94,7 +101,7 @@ export default function About() {
             Here are a few technologies I've been working with recently:
           </p>
 
-          <div className="flex flex-row justify-start items-start gap-5 sm:gap-8 md:gap-14 lg:gap-24">
+          <div className="flex flex-row justify-start items-start gap-5 sm:gap-8 md:gap-14 lg:gap-24" property="skills">
             <ul className="flex flex-col">
               <li className="inline-flex items-center">
                 <svg

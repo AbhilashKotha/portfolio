@@ -31,7 +31,7 @@ function ChuckNorrisJokes() {
         <button onClick={() => {
                 fetchJoke();
             }} className="py-2 ml-1 font-mono font-thin text-pf-dark dark:text-pf-light text-md lg:text-lg">
-                <FaThumbsDown/>
+                <p><FaThumbsDown/> Get a new Joke</p>
         </button>
     </div>
   );
