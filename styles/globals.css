@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@font-face {
+  font-family: "GilroyMedium";
+  src: url("../public/fonts/Gilroy-Medium.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "GilroyBold";
+  src: url("../public/fonts/Gilroy-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "GilroyLight";
+  src: url("../public/fonts/Gilroy-Light.otf");
+  font-weight: 300;
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 6s;
+  }
+}
+
+input[type="text"]:focus ~ .input-text,
+input[type="text"]:not(:placeholder-shown) ~ .input-text {
+  @apply transform bg-white dark:bg-darkmode -translate-y-6 -translate-x-1 scale-75;
+}
+
+input[type="email"]:focus ~ .input-text,
+input[type="email"]:not(:placeholder-shown) ~ .input-text {
+  @apply transform bg-white dark:bg-darkmode -translate-y-6 -translate-x-3 scale-75;
+}
+
+textarea[type="text"]:focus ~ .input-text,
+textarea[type="text"]:not(:placeholder-shown) ~ .input-text {
+  @apply transform bg-white py-0 dark:bg-darkmode -translate-y-3 -translate-x-2 scale-75;
+}
+
+.experience-card:last-child {
+  margin-bottom: 0 !important;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Preloader */
+.loader__container {
+  --dot-size: 20px;
+  --bs-white-rgb: 255, 255, 255;
+  position: absolute;
+  inset: 0;
+  background-color: transparent;
+  backdrop-filter: blur(0.25rem);
+  z-index: 10;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  gap: calc(var(--dot-size) / 4);
+}
+
+.loader__dot {
+  width: var(--dot-size);
+  height: var(--dot-size);
+  aspect-ratio: 1 / 1;
+  border-radius: calc(var(--dot-size) / 2);
+  background-color: var(--bs-primary);
+  animation: slide 1.5s 1;
+}
+
+@keyframes slide {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* For the Banner animation on landing page */
+.cust-card-background-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(65, 65, 151);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cust-card-container {
+  max-width: 800px;
+  width: 50vw;
+  margin: 0 auto;
+}
