@@ -24,7 +24,7 @@
 - Vercel for deployment
 - GitHub for version management and automatic deployment
 - Visual Studio Code for development and coding
-- Figma for visual designs
+- Figma for visual designs and prototypes
 
 ## How do you customize this website for your own portfolio?
 
