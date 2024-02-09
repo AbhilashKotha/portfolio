@@ -138,6 +138,11 @@ export default function Landing(props) {
               Resume
             </Link>
           </button>
+          <button className="font-gilroy font-medium text-wild-blue-400 hover:text-gray-600 dark:text-pf-light hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-tr hover:dark:from-blue-500 hover:dark:to-purple-600 transition duration-500">
+            <Link href="/exercise.txt" target="_blank" rel="noreferrer noopener">
+              Exercise
+            </Link>
+          </button>
         </div>
         <div
           data-aos="fade-up"
