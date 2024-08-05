@@ -102,7 +102,7 @@ export default function Landing(props) {
                 2400,
                 "I'm a Software Engineer",
                 1200,
-                "I'm a SLU Student",
+                "I'm a Frontend Developer",
                 1000,
               ]}
               speed={35}
@@ -138,11 +138,11 @@ export default function Landing(props) {
               Resume
             </Link>
           </button>
-          <button className="font-gilroy font-medium text-wild-blue-400 hover:text-gray-600 dark:text-pf-light hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-tr hover:dark:from-blue-500 hover:dark:to-purple-600 transition duration-500">
+          {/* <button className="font-gilroy font-medium text-wild-blue-400 hover:text-gray-600 dark:text-pf-light hover:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-tr hover:dark:from-blue-500 hover:dark:to-purple-600 transition duration-500">
             <Link href="/exercise.txt" target="_blank" rel="noreferrer noopener">
               Exercise
             </Link>
-          </button>
+          </button> */}
         </div>
         <div
           data-aos="fade-up"
