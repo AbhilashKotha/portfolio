@@ -43,54 +43,14 @@ export default function About() {
           className="mt-8 text-pf-dark dark:text-pf-light font-gilroy"
         >
           <p className="mx-auto max-w-lg py-2" property="description">
-            Hello! 👋 My name is <span property="name">Abhilash</span> and I'm an international Student persuing a master's degree in {" "}
-            <a
-              href="https://www.slu.edu/science-and-engineering/academics/graduate-programs/software-engineering-ms.php"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
-            >
+            Hello! 👋 My name is <span property="name" className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500">Abhilash</span> and I'm an experienced 
               {" "}
-              Software engineering
-            </a>{" "}
-             at the{" "}
-            <a
-              href="https://slu.edu/"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
-            >
-              Saint Louis University.
-            </a>{" "}
-            With 8 years of industry experience and a masters degree in Software Engineering I am aiming for technical leadership positions.
+              Software developer
+            {" "}
+            With 8 years of industry experience and a masters degree in Software Engineering, I am aiming for senior developer and technical leadership positions.
           </p>
           <p className="mx-auto max-w-lg py-2">
-            Before Joining SLU, I worked for 6 years at{" "}
-            <a
-              href="https://www.merckgroup.com"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
-              property="worksFor"
-              typeof="Organization"
-            >
-              Merck KgaA
-            </a>{" and "}<a
-              href="https://www.ltimindtree.com/"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="font-gilroybold bg-wild-blue-100 hover:bg-wild-blue-200 dark:bg-transparent hover:dark:bg-clip-text hover:dark:text-transparent hover:dark:bg-gradient-to-r hover:dark:from-[#3a7bd5] hover:dark:to-[#2997c5] dark:text-pf-light transition duration-500"
-              property="worksFor"
-              typeof="Organization"
-            >
-             Mindtree Ltd
-            </a>{" "}
-            in various capacities. I am
-            currently seeking{" "}
-            <span className="font-gilroybold bg-wild-blue-100 dark:bg-transparent">
-              Spring 2024
-            </span>{" "}
-            Software Engineering internships and Full-time positions
+            With a creative approach to Frontend development, I am an expert in creating UI/UX rich web applications. I am a problem solver, you give me a problem and I come up with a solution, a creative and optimal solution. 
           </p>
 
           <p className="mx-auto max-w-lg py-2">
@@ -117,7 +77,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                Python
+                React JS
               </li>
               <li className="inline-flex items-center">
                 <svg
@@ -133,7 +93,7 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                Flask
+                MERN Stack
               </li>
             </ul>
             <ul className="flex flex-col">
@@ -151,7 +111,41 @@ export default function About() {
                     clipRule="evenodd"
                   />
                 </svg>
-                React.js
+                TypeScript
+              </li>
+              <li className="inline-flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  {" "}
+                  <path
+                    fillRule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Bootstrap
+              </li>
+            </ul>
+            <ul className="flex flex-col">
+              <li className="inline-flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  {" "}
+                  <path
+                    fillRule="evenodd"
+                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Tailwind CSS
               </li>
               <li className="inline-flex items-center">
                 <svg
@@ -168,40 +162,6 @@ export default function About() {
                   />
                 </svg>
                 Mongo DB
-              </li>
-            </ul>
-            <ul className="flex flex-col">
-              <li className="inline-flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  {" "}
-                  <path
-                    fillRule="evenodd"
-                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                MS SQL
-              </li>
-              <li className="inline-flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  {" "}
-                  <path
-                    fillRule="evenodd"
-                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                Bootstrap CSS
               </li>
             </ul>
           </div>

@@ -3,6 +3,10 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import { useFormik } from "formik";
 import handleSubmit from "../../utils/submitForm.js";
+import { MdEmail } from "react-icons/md";
+import {
+  AiFillLinkedin,
+} from "react-icons/ai";
 
 export default function Contact() {
   useEffect(() => {
@@ -23,19 +27,34 @@ export default function Contact() {
             </h1>
 
             <div className="md:mt-2">
-              <p className="text-md md:text-lg text-center font-gilroy md:text-start text-pf-dark dark:text-pf-light">
-                Have a question or want to have a quick ☕️ chat? Feel free to
-                connect with me!
+              <p className=" text-md md:text-lg text-center font-gilroy md:text-start text-pf-dark dark:text-pf-light">
+                Please send me an email or an InMail on LinkedIn 
               </p>
+              <br></br>
+              <a
+                  className="flex items-center hover:text-[#D54B3E] transition duration-500"
+                  href="mailto:kotha.abhilash@gmail.com"
+                >
+                <MdEmail className="mr-2"/> kotha.abhilash@gmail.com
+                </a>
+                <a
+              className="flex items-center hover:text-[#0077b5] transition duration-500"
+              href="https://www.linkedin.com/in/abhilashkotha/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <AiFillLinkedin className="mr-2"/> https://www.linkedin.com/in/abhilashkotha/
+            </a>
             </div>
           </div>
+
+            
 
           <div
             data-aos="fade-up"
             data-aos-once
             className="transition-colors duration-300 relative rounded-lg -mt-6 lg:mt-0 p-2 md:p-8 lg:col-span-3 lg:p-12"
           >
-            <ContactForm />
           </div>
         </div>
       </div>

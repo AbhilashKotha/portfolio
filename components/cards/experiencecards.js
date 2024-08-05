@@ -20,8 +20,8 @@ const ExperienceCard = ({ experience }) => {
             className="hidden md:inline mt-2 h-10 w-10 rounded-md"
             src={experience.image}
             alt={experience.company}
-            width={40}
-            height={40}
+            width={100}
+            height={100}
           />
         </a>
         <div>
@@ -46,9 +46,7 @@ const ExperienceCard = ({ experience }) => {
           <p className="mt-2 text-base font-normal text-gray-600 dark:text-gray-200 max-w-2xl">
             {experience.department}
           </p>
-          <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-400 max-w-2xl">
-            {experience.description}
-          </p>
+          <div className="mt-2 text-gray-700 dark:text-gray-300" dangerouslySetInnerHTML={{ __html: experience.description }} />
           <p className="mt-2 text-base font-normal text-gray-500 dark:text-gray-300">
             <span className="font-gilroybold text-gray-600 dark:text-gray-100">
               Tools:{" "}
